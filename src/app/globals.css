@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  zoom: 90%;
+}
+
+body {
+  @apply bg-black text-white font-sans;
+}
+
+a {
+  @apply text-inherit;
+}

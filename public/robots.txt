@@ -1,0 +1,28 @@
+# Solani Construction Limited - Robots Configuration
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+Disallow: /.next/
+Disallow: /api/
+Disallow: *?_vercel_analytics=
+Disallow: *?utm_
+
+# Sitemaps
+Sitemap: https://solaniconstruction.com/sitemap.xml
+
+# Specific bot rules
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandexbot
+Allow: /
+
+# Crawl delay (in seconds)
+Crawl-delay: 1
+
+# Request rate (requests per second)
+Request-rate: 10/1s
