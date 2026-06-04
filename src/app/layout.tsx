@@ -20,10 +20,32 @@ export const metadata: Metadata = {
   },
   description: 'Premier construction specialists delivering resilient infrastructure across Ghana.',
   icons: {
-    icon: '/favicon.ico',
-    apple: '/favicon.ico',
+    icon: '/logo.png',
+    apple: '/logo.png',
   },
   manifest: '/manifest.json',
+  openGraph: {
+    title: 'Solani Construction Limited',
+    description: 'Premier construction and engineering specialists delivering resilient infrastructure across Ghana.',
+    url: 'https://solaniconstruction.com',
+    siteName: 'Solani Construction Limited',
+    images: [
+      {
+        url: 'https://solaniconstruction.com/logo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Solani Construction and Engineering Services Logo',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Solani Construction Limited',
+    description: 'Premier construction and engineering specialists delivering resilient infrastructure across Ghana.',
+    images: ['https://solaniconstruction.com/logo.png'],
+  },
 }
 
 export default function RootLayout({
@@ -36,6 +58,8 @@ export default function RootLayout({
       <head>
         <meta charSet="utf-8" />
         <meta name="theme-color" content="#000000" />
+        <link rel="icon" href="/logo.png" sizes="any" type="image/png" />
+        <link rel="apple-touch-icon" href="/logo.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -45,7 +69,7 @@ export default function RootLayout({
               name: 'Solani Construction Limited',
               url: 'https://solaniconstruction.com',
               logo: 'https://solaniconstruction.com/logo.png',
-              description: 'Premier construction specialists delivering resilient infrastructure across Ghana.',
+              description: 'Premier construction and engineering specialists delivering resilient infrastructure across Ghana.',
               sameAs: [
                 'https://facebook.com/solaniconstruction',
                 'https://twitter.com/solaniconstruction',
