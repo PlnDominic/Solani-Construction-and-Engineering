@@ -42,7 +42,7 @@ const PROJECTS: Project[] = [
     name: 'Subiri Nkwanta CHPS Compound',
     location: 'Subiri Nkwanta',
     type: 'Construction of 1No. CHPS Compound & 1No. 2-Bedroom Accommodation Facility',
-    year: 'Community Health Facility',
+    year: 'Client: Bibiani-Anhwiaso-Bekwai Municipal Assembly',
     image: '/chps-subiri-nkwanta.jpg',
     coordinates: [6.302895894525432, -2.2503988746247066],
   },
