@@ -205,9 +205,12 @@ export default function AboutPage() {
                 <Image src="/ceo.jpg" alt="Leadership" fill className="object-cover" />
               </div>
 
-              {/* Fifth Row - Full-width team image */}
-              <div className="col-span-2 md:col-span-4 relative h-64 md:h-[28rem] overflow-hidden">
+              {/* Fifth Row - Site inspection team + company vehicle */}
+              <div className="col-span-2 relative h-64 md:h-80 overflow-hidden">
                 <Image src="/site-inspection-team.jpg" alt="Solani team on a site inspection" fill className="object-cover object-top" />
+              </div>
+              <div className="col-span-2 relative h-64 md:h-80 overflow-hidden">
+                <Image src="/company-vehicle.jpg" alt="Solani Construction & Engineering branded vehicle" fill className="object-cover" />
               </div>
 
               {/* Sixth Row - Office visit image + site video */}
