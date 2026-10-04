@@ -54,6 +54,14 @@ const TIMELINE_ITEMS: TimelineItem[] = [
     imageAlt: 'Mine prospecting at Chine',
     description: 'Mine prospecting at Chine.',
   },
+  {
+    id: 'timeline-2026-hwenampori-borehole',
+    yearTag: '2026',
+    imageSrc: '/hwenampori-jhs-borehole.jpg',
+    imageAlt: 'Borehole and water tank stand at Hwenampori JHS',
+    description:
+      '1 No. Borehole for Hwenampori JHS. Client: Bibiani-Anhwiaso-Bekwai Municipal Assembly.',
+  },
 ]
 
 export default function ProjectTimeline() {
