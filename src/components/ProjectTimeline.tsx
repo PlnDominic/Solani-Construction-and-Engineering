@@ -32,28 +32,12 @@ const TIMELINE_ITEMS: TimelineItem[] = [
       'Scaled supply chain capabilities for leading mining clients, providing equipment logistics, safety gear, and field procurement support.',
   },
   {
-    id: 'timeline-2019',
-    yearTag: '2019',
-    imageSrc: '/project%208.jpg',
-    imageAlt: 'Municipal infrastructure delivery',
-    description:
-      'Delivered municipal sanitation, water systems, and public facilities for Bibiani-Anhwiaso-Bekwai Assembly and the National Health Insurance Authority.',
-  },
-  {
     id: 'timeline-2020',
     yearTag: '2020',
     imageSrc: '/sch.jpg',
     imageAlt: 'Solani Montessori School Academic Block',
     description:
       'Completed 3-storey academic block with ancillary facilities at Bibiani Estate for Solani Montessori School, expanding educational infrastructure in the region.',
-  },
-  {
-    id: 'timeline-2022',
-    yearTag: '2022',
-    imageSrc: '/project%207.jpg',
-    imageAlt: 'Institutional buildings under construction',
-    description:
-      'Completed multi-storey education facilities and support infrastructure for regional training colleges, reinforcing our civil engineering credentials.',
   },
   {
     id: 'timeline-2024',
