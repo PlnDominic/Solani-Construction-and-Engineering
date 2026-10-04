@@ -19,10 +19,6 @@ export const metadata: Metadata = {
     template: '%s | Solani Construction Limited',
   },
   description: 'Premier construction specialists delivering resilient infrastructure across Ghana.',
-  icons: {
-    icon: '/logo.png',
-    apple: '/logo.png',
-  },
   manifest: '/manifest.json',
   openGraph: {
     title: 'Solani Construction Limited',
@@ -58,8 +54,6 @@ export default function RootLayout({
       <head>
         <meta charSet="utf-8" />
         <meta name="theme-color" content="#000000" />
-        <link rel="icon" href="/logo.png" sizes="any" type="image/png" />
-        <link rel="apple-touch-icon" href="/logo.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
