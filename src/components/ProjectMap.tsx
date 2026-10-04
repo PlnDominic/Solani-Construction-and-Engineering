@@ -46,6 +46,15 @@ const PROJECTS: Project[] = [
     image: '/chps-subiri-nkwanta.jpg',
     coordinates: [6.302895894525432, -2.2503988746247066],
   },
+  {
+    id: 'project-bibiani-anglican-jhs',
+    name: 'Bibiani Anglican JHS Classroom Block',
+    location: 'Bibiani',
+    type: 'Renovation of 1No. 3-Unit Burnt Classroom Block with Office, Store, Changing Room for Girls & 4-Seater Pour Flush Toilet Facility',
+    year: 'Client: Bibiani-Anhwiaso-Bekwai Municipal Assembly',
+    image: '/bibiani-anglican-jhs.jpg',
+    coordinates: [6.453943697689654, -2.319937179531167],
+  },
 ]
 
 const MapComponent = dynamic(
