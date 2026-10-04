@@ -55,6 +55,15 @@ const PROJECTS: Project[] = [
     image: '/bibiani-anglican-jhs.jpg',
     coordinates: [6.453943697689654, -2.319937179531167],
   },
+  {
+    id: 'project-hwenampori-jhs',
+    name: 'Hwenampori JHS Classroom Block',
+    location: 'Hwenampori',
+    type: 'Complete & Furnish 1No. 3-Unit Classroom Block with Office, Store, Changing Room for Girls & 4-Seater Pour Flush Toilet Facility',
+    year: 'Client: Bibiani-Anhwiaso-Bekwai Municipal Assembly',
+    image: '/hwenampori-jhs.jpg',
+    coordinates: [6.444202584241694, -2.316782644087127],
+  },
 ]
 
 const MapComponent = dynamic(
