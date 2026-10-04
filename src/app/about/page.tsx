@@ -230,6 +230,11 @@ export default function AboutPage() {
                   aria-label="Earthworks in progress on a Solani site"
                 />
               </div>
+
+              {/* Seventh Row - Full-width site visit image */}
+              <div className="col-span-2 md:col-span-4 relative h-64 md:h-[28rem] overflow-hidden">
+                <Image src="/site-visit-partners.jpg" alt="Solani team with partners on a site visit" fill className="object-cover" />
+              </div>
             </div>
           </div>
         </div>
