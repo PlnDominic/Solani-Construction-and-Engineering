@@ -15,12 +15,12 @@ export default function Footer() {
           
           {/* Right Side - Developer Credit */}
           <a
-            href="https://wa.me/233542855399"
+            href="https://www.ecstasytechnologies.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-600 transition-colors hover:text-orange-500 whitespace-nowrap"
           >
-            Developed by Ecstasy Geospatial Services
+            Developed by Ecstasy Technologies
           </a>
       </div>
     </footer>
