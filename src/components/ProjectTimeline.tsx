@@ -47,6 +47,13 @@ const TIMELINE_ITEMS: TimelineItem[] = [
     description:
       'Recognized for industry excellence, safety leadership, and sustainable construction practices while expanding to large-scale housing initiatives.',
   },
+  {
+    id: 'timeline-2026',
+    yearTag: '2026',
+    imageSrc: '/mine-prospecting-chine.jpg',
+    imageAlt: 'Mine prospecting at Chine',
+    description: 'Mine prospecting at Chine.',
+  },
 ]
 
 export default function ProjectTimeline() {
