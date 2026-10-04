@@ -209,6 +209,24 @@ export default function AboutPage() {
               <div className="col-span-2 md:col-span-4 relative h-64 md:h-[28rem] overflow-hidden">
                 <Image src="/site-inspection-team.jpg" alt="Solani team on a site inspection" fill className="object-cover object-top" />
               </div>
+
+              {/* Sixth Row - Office visit image + site video */}
+              <div className="col-span-2 relative h-64 md:h-80 overflow-hidden">
+                <Image src="/office-visit-team.jpg" alt="Solani team with visitors at the head office" fill className="object-cover" />
+              </div>
+              <div className="col-span-2 relative h-64 md:h-80 overflow-hidden bg-slate-900">
+                <video
+                  src="/site-earthworks.mp4"
+                  poster="/site-earthworks-poster.jpg"
+                  className="h-full w-full object-cover"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="metadata"
+                  aria-label="Earthworks in progress on a Solani site"
+                />
+              </div>
             </div>
           </div>
         </div>
