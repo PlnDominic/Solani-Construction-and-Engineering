@@ -34,6 +34,15 @@ const PROJECTS: Project[] = [
     image: '/School.jpg',
     coordinates: [6.450526329113391, -2.3084902025536276],
   },
+  {
+    id: 'project-subiri-nkwanta-chps',
+    name: 'Subiri Nkwanta CHPS Compound',
+    location: 'Subiri Nkwanta',
+    type: 'Construction of 1No. CHPS Compound & 1No. 2-Bedroom Accommodation Facility',
+    year: 'Community Health Facility',
+    image: '/chps-subiri-nkwanta.jpg',
+    coordinates: [6.302895894525432, -2.2503988746247066],
+  },
 ]
 
 function MapController() {
