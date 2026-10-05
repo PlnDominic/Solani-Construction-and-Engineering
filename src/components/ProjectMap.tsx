@@ -52,7 +52,7 @@ const PROJECTS: Project[] = [
     location: 'Bibiani',
     type: 'Renovation of 1No. 3-Unit Burnt Classroom Block with Office, Store, Changing Room for Girls & 4-Seater Pour Flush Toilet Facility',
     year: 'Client: Bibiani-Anhwiaso-Bekwai Municipal Assembly',
-    image: '/bibiani-anglican-jhs.jpg',
+    image: '/bibiani-anglican-jhs-renovated.jpg',
     coordinates: [6.453943697689654, -2.319937179531167],
   },
   {
